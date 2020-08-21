@@ -5,10 +5,10 @@ class Artist
   
   def initialize(name)
     @name = name
-    self << @@all
+    @@al << self
   end
   
-  def all
+  def self.all
     @@all
   end
 end
